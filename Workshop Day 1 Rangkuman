@@ -1,0 +1,81 @@
+
+Rangkuman Materi: Git, GitHub, & Prompt Engineering
+
+1. Prompt Engineering
+
+Prompt Engineering adalah seni menyusun instruksi yang efektif agar AI memberikan jawaban yang akurat dan relevan. Format prompt yang ideal mencakup 4 elemen 
+utama:
+
+- Role: Menentukan peran atau identitas AI.
+- Task: Menjelaskan tugas spesifik yang harus dikerjakan.
+- Context: Memberikan latar belakang atau data pendukung.
+- Format: Menentukan bentuk luaran yang diinginkan (misal: tabel, poin-poin, kode).
+
+2. Pengertian Git
+
+Git adalah "Version Control System" (VCS) berbasis lokal yang diciptakan oleh Linus Torvalds pada tahun 2005. Perangkat ini berfungsi melacak dan mencatat 
+setiap perubahan file proyek, termasuk informasi tentang siapa yang mengubah, kapan dilakukan, dan bagian mana yang diperbarui.
+
+3. Pengertian GitHub
+
+GitHub adalah platform berbasis "cloud" untuk menyimpan dan mengelola "repository" Git secara daring (online).
+
+- Git   : Bekerja di komputer lokal untuk mengontrol versi file.
+- GitHub: Bekerja di internet untuk kolaborasi tim, berbagi proyek, dan penyimpanan cadangan.
+
+4. Git Workflow
+Alur kerja Git terbagi menjadi tiga area utama:
+
+= Working Directory: Area kerja tempat file dibuat atau diubah secara langsung.
+= Staging Area: Tempat mengumpulkan dan menyeleksi perubahan file sebelum disimpan permanen.
+= Git Directory (Repository): Tempat simpanan akhir berisi riwayat lengkap dari seluruh revisi proyek.
+
+5. Perintah Dasar Git
+
+- git init : Membuat *repository* lokal baru.
+- git add: Memindahkan perubahan dari Working Directory ke Staging Area.
+- git commit: Menyimpan perubahan yang ada di Staging Area ke Git Directory.
+- git clone: Mengunduh *repository* dari GitHub ke komputer lokal.
+- git push: Mengirimkan *commit* dari *repository* lokal ke GitHub.
+- git pull: Mengambil dan menggabungkan pembaruan terbaru dari GitHub ke "repository" lokal.
+
+6. Persiapan & Konfigurasi GiT
+
+Langkah awal sebelum menggunakan Git: 
+
+1. Menginstal aplikasi Git sesuai sistem operasi.
+2. Membuka Terminal atau CMD untuk memverifikasi instalasi (git version).
+3. Mengatur identitas global pengembang (username dan email) sebagai penanda riwayat revisi (git config).
+
+7. Persiapan Visual Studio Code (VS Code)
+
+VS Code digunakan sebagai penyunting kode (text editor). Setelah diinstal, pengguna perlu mengonfigurasi jalur eksekusi (environment path) agar fitur terminal 
+bawaan dapat digunakan secara langsung untuk menjalankan perintah Git.
+
+8. Membuat Repository GitHub
+
+Proyek dapat dimulai melalui dua metode:
+
+Lokal ke Remote: Membuat proyek di komputer dengan git init, lalu menyambungkannya ke GitHub.
+- Remote ke Lokal: Membuat repository baru di situs GitHub terlebih dahulu, lalu mengunduhnya ke komputer menggunakan perintah git clone.
+
+9. Otentikasi SSH Key
+
+SSH Key adalah jalur aman untuk menghubungkan komputer lokal dengan akun GitHub tanpa perlu memasukkan kata sandi berulang kali. Langkahnya meliputi pembuatan 
+pasangan kunci (Public & Private Key), mengunggah Public Key ke menu (SSH and GPG Keys) di GitHub, serta menguji koneksinya.
+
+10. Praktik: Pembentukan Aplikasi & Kolaborasi AI
+
+Sebagai alur praktik akhir:
+
+1. Aplikasi sederhana (seperti *Student Task Planner) dibuat menggunakan bantuan model AI (ChatGPT, Claude, atau Antigravity) lewat instruksi (Prompt Engineering).
+2. Proyek diinisialisasi dengan Git, kemudian disimpan (commit) dan diunggah (push) ke GitHub.
+3. Setiap kali ada pembaruan fitur atau perbaikan kode, alur commit dan push diulangi agar versi terbaru selalu tersinkronisasi di GitHub.
+
+
+
+Kesimpulan
+
+Materi ini menggabungkan penggunaan AI (*Prompt Engineering*) untuk mempercepat pembuatan aplikasi dengan Git & GitHub sebagai sistem kontrol versi dan 
+kolaborasi. Kombinasi ini memungkinkan pengembang membangun perangkat lunak secara lebih terstruktur, aman dari kehilangan riwayat kode, dan siap untuk 
+berkolaborasi dalam tim.
